@@ -1,3 +1,0 @@
-# avc2020
-INSTRUCTIONS:
-
