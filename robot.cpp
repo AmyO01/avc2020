@@ -51,7 +51,7 @@ int main(){
 		}
 		if ((totalRowNotWhite > 130 && totalRowNotWhitePrevious < 50) || totalRowNotWhite == 0){ //checks for a sharp left corner
 			int x = 0;
-			while (x < 5){ //if it detects a sharp corner it will run this 10 times to ensure it turns enough
+			while (x < 5){ //if it detects a sharp corner it will run this 5 times to ensure it turns enough
 			std::cout<<"Left corner"<<std::endl;
 			vLeft = 20.0;
 			vRight = 30.0;
