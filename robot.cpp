@@ -21,14 +21,14 @@ int main(){
     
     
     
-    while(1){
+   while(1){
     
-    totalRowNotWhite = 0;
-    takePicture();
-	SavePPMFile("i0.ppm",cameraView);
+    	totalRowNotWhite = 0;
+   	takePicture();
+   	SavePPMFile("i0.ppm",cameraView);
 	setMotors(vLeft,vRight);
 	usleep(10000);
-    for (int row = 0; row < 50; row++){ //takes the first 50 rows of the image
+    	for (int row = 0; row < 50; row++){ //takes the first 50 rows of the image
 		isWhite = false;
 		for (int column = 0; isWhite == false && column < image.width; column++){ //checks each pixel until it reach a white pixel, or it reaches the end of the image
 			int pixel = get_pixel(image,row,column,0);
