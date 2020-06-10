@@ -15,7 +15,7 @@ int main(){
 		double averageWhite = 0.0;
 		int whiteIndex = 0;
 		for (int i =0; i < 150; i++){
-			int pix = get_pixel(cameraView,95,i,3);
+			int pix = get_pixel(cameraView,93,i,3);
 			int isWhite;
 			if( pix > 250){
 				isWhite = 1;
@@ -24,17 +24,24 @@ int main(){
 			else {isWhite = 0;}	
 			array[i] = isWhite;
 		}
-		
-		averageWhite = whiteIndex/whiteCount;
+		if(whiteCount != 0){
+		averageWhite = whiteIndex/whiteCount;}
 		error = 75 - averageWhite;
 		std::cout<<error;
-		if(error < 10 && error > -10){
+		if(error < 5 && error > -5){
 		vLeft = 30;
 		vRight = 30;}
-		else{
-		vLeft = 30 - error;
-		vRight = 30;
-		error = 0;
+		
+		else if(error < -5){
+		vLeft = 10 - error;
+		vRight = 10;}
+		else if(error > 5){
+		vLeft = 10;
+		vRight = 10 + error;}
+		
+		if(whiteCount == 0){
+		vLeft = 30 ;
+		vRight = 0;
 			}
 		
       setMotors(vLeft,vRight);   
