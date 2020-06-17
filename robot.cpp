@@ -24,14 +24,11 @@ int main(){
 		for (int i =0; i < 150; i++){
 			int pix = get_pixel(cameraView,93,i,3);
 			int farPix = get_pixel(cameraView,75,i,3);
-			int isWhite;
 			if (pix > 250){
-				isWhite = 1;
 				whiteCount++;
 				whiteIndex += i;}
-			else {isWhite = 0;}	
-			array[i] = isWhite;
 		}
+		
 		for (int x = 75; isRed == false && x != 0; x--){
 			int pixLeft = get_pixel(cameraView,75,x,0);
 			if (pixLeft != 255){
@@ -41,7 +38,13 @@ int main(){
 			
 		}
 		if (whiteCount == 0){
-			if (distanceFromCentre == 0){
+		if(isRed == false && distanceFromCentre != 75){
+			vLeft = 30 ;
+			vRight = 0;}
+			
+		else {
+		
+		if (distanceFromCentre == 0){
 				int x = 0;
 				while (x < 10){
 					vLeft = 30;
@@ -78,6 +81,7 @@ int main(){
 				vLeft = 12;
 				vRight = 20;
 			}
+		}
 			
 		}
 		
