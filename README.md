@@ -10,6 +10,9 @@ Discord, email, messenger
 # Roles
 Amy - Project Manager.      Plaso and Cameron - Software Architects.    All - contributing to writing, testing and documentation
 
+# Instructions
+1. Click the download button on the GitHub page this will bring up options click download zip.      2.  Open your files and go to where ever the SFML folder was saved to.    3. Move and extract the zip folder you downloaded into SFML folder (The extracted file will give README.md and robot.cpp).   4. Move robot.cpp into the folder named AVC_robot (This will be in the AVC folder (example: AVC_Win10)) If there is already a robot.cpp file in there replace that file with the new one     5. Open robot.cpp in Geany    6. Open the server.exe file (found in AVC_sever (example: sever3.exe)) This will bring up the maze.     7. Go back to Geany and make the robot by going to the top bar, hover over the Build menu then click make or alternativly press shift and F9     8. Then click the execute button or press F5 to run the program.     9.  After the robot has made its way through the maze terminate the programs.
+
 # Plan (Rough idea)
 
 By 11 of June we want at least the core code complete with progress on the completion.
