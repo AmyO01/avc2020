@@ -1,9 +1,3 @@
-
-# Team Name
-
-# Members & Contact
-Plaso plahsoekusay@gmail.com
-
 # Communication
 Discord, email, messenger
 
