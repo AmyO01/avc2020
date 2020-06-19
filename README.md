@@ -6,7 +6,7 @@ Amy - Project Manager.      Plaso and Cameron - Software Architects.    All - co
 
 # Instructions (WINDOWS)
 # Download files from GitHub
-Download the files from GitHub
+Download the project files from GitHub
 # Install project libraries (SFML)
 Go to this link https://www.sfml-dev.org/download/sfml/2.5.1/
 and download MinGW version.
