@@ -12,6 +12,9 @@ Unzip file into C:SFML; (If u change this, you will need to change location in m
 # Have compiler installed. 
 Please install a compiler.  
 Your MinGW compiler versions need to match. (32bit to 32bit, 64 bit to 64 bit).A link to those versions is provided in the link above.
+https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/7.3.0/threads-posix/seh/x86_64-7.3.0-release-posix-seh-rt_v5-rev0.7z/download for 64 bit
+
+https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/7.3.0/threads-posix/dwarf/i686-7.3.0-release-posix-dwarf-rt_v5-rev0.7z/download for 32 bit
 # Go to server folder and run server Application
 To change maze, go into config.txt and replace core.txt with completion or challenge . txt. 
 # Go to robot folder and run robot application. 
