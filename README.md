@@ -23,6 +23,7 @@ Add the compiler to PATH;
 Link to on how to do that here: https://docs.microsoft.com/en-us/previous-versions/office/developer/sharepoint-2010/ee537574(v=office.14)?redirectedfrom=MSDN
 
 # Building
+Place extracted folders from GitHub into the SFML folder
 The O files are included, but if u want to build/compile the server and robot, you will need to have Geany installed. https://www.geany.org/
 Go into set build commands and instead of make - have mingw32-make
 Then click "make",
@@ -30,8 +31,8 @@ Then click "make",
 # Go to server folder and run server Application
 To change maze, go into config.txt and replace core.txt with completion or challenge . txt. 
 # Go to robot folder and run robot application. 
-
-Sweet. 
+In Geany make and execute the robot.cpp file.
+Sweet. Remember to terminate the programs at the end of each maze.
 
 # Plan (Rough idea)
 
