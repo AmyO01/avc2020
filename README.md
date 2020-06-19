@@ -8,10 +8,10 @@ Amy - Project Manager.      Plaso and Cameron - Software Architects.    All - co
 # Install project libraries (SFML)
 Go to this link https://www.sfml-dev.org/download/sfml/2.5.1/
 and download MinGW version.
-Unzip file into C:SFML; (If u change this, you will need to change location in makefiles);
+Unzip file into C:SFML; (if you change this, you will need to change location in makefiles);
 # Have compiler installed. 
 Please install a compiler.  
-Your MinGW compiler versions need to match. (32bit to 32bit, 64 bit to 64 bit).A link to those versions is provided in the link above.
+Your MinGW compiler versions need to match (32bit to 32bit, 64 bit to 64 bit). A link to those versions is provided in the link above.
 https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/7.3.0/threads-posix/seh/x86_64-7.3.0-release-posix-seh-rt_v5-rev0.7z/download for 64 bit
 
 https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/7.3.0/threads-posix/dwarf/i686-7.3.0-release-posix-dwarf-rt_v5-rev0.7z/download for 32 bit
