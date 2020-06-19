@@ -15,6 +15,11 @@ Your MinGW compiler versions need to match. (32bit to 32bit, 64 bit to 64 bit).A
 https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win64/Personal%20Builds/mingw-builds/7.3.0/threads-posix/seh/x86_64-7.3.0-release-posix-seh-rt_v5-rev0.7z/download for 64 bit
 
 https://sourceforge.net/projects/mingw-w64/files/Toolchains%20targetting%20Win32/Personal%20Builds/mingw-builds/7.3.0/threads-posix/dwarf/i686-7.3.0-release-posix-dwarf-rt_v5-rev0.7z/download for 32 bit
+
+Add the compiler to PATH; 
+- add bin directory containing g++ and other compiler executables to your Windows PATH. 
+Link to on how to do that here: https://docs.microsoft.com/en-us/previous-versions/office/developer/sharepoint-2010/ee537574(v=office.14)?redirectedfrom=MSDN
+
 # Go to server folder and run server Application
 To change maze, go into config.txt and replace core.txt with completion or challenge . txt. 
 # Go to robot folder and run robot application. 
