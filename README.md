@@ -20,6 +20,11 @@ Add the compiler to PATH;
 - add bin directory containing g++ and other compiler executables to your Windows PATH. 
 Link to on how to do that here: https://docs.microsoft.com/en-us/previous-versions/office/developer/sharepoint-2010/ee537574(v=office.14)?redirectedfrom=MSDN
 
+# Building
+The O files are included, but if u want to build/compile the server and robot, you will need to have Geany installed. https://www.geany.org/
+Go into set build commands and instead of make - have mingw32-make
+Then click "make",
+
 # Go to server folder and run server Application
 To change maze, go into config.txt and replace core.txt with completion or challenge . txt. 
 # Go to robot folder and run robot application. 
